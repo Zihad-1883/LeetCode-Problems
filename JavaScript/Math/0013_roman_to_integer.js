@@ -1,3 +1,11 @@
+/**
+ * Problem: 13. Roman to Integer
+ * Link: https://leetcode.com/problems/roman-to-integer/
+ * Time Complexity: O(n) - Single pass loop iterating through the length of the string.
+ * Space Complexity: O(1) - The map containing Roman numeral conversions is fixed in size (7 elements) and does not grow with the input.
+ */
+
+
 var romanToInt = function (s) {
   let output = 0;
   const numericValues = {
